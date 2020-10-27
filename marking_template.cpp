@@ -1,19 +1,19 @@
 /*
 	============================================================================
 
-	ÀÛ¼º: È²Áø¼º(eddy5360@naver.com)
-	¿ëµµ: markingData µéÀ» Á÷Á¢ ºñ±³ÇÏ±â ±ÍÂú¾Æ¼­ ¸¸µê.
-	°³¼±ÀÌ ÇÊ¿äÇÑ Á¡:
-	- file output streamÀ» º¯°æÇÏ´Â ¹æ¹ýÀ» ¾Ë°ÔµÇ¸é ÇÏ³ªÀÇ ÆÄÀÏ·Î mergeÇÒ ¿¹Á¤.
-	- system ¸í·É¾î¸¦ ÅëÇØ¼­ ÀÔ·Â¿¡ µû¶ó PROBLEM_ID¸¦ ¼öµ¿À¸·Î ¹Ù²ÙÁö ¾Ê¾Æµµ µÇ°Ô º¯°æÇÏ°íÇÄ.
+	ìž‘ì„±: í™©ì§„ì„±(eddy5360@naver.com)
+	ìš©ë„: markingData ë“¤ì„ ì§ì ‘ ë¹„êµí•˜ê¸° ê·€ì°®ì•„ì„œ ë§Œë“¦.
+	ê°œì„ ì´ í•„ìš”í•œ ì :
+	- file output streamì„ ë³€ê²½í•˜ëŠ” ë°©ë²•ì„ ì•Œê²Œë˜ë©´ í•˜ë‚˜ì˜ íŒŒì¼ë¡œ mergeí•  ì˜ˆì •.
+	- system ëª…ë ¹ì–´ë¥¼ í†µí•´ì„œ ìž…ë ¥ì— ë”°ë¼ PROBLEM_IDë¥¼ ìˆ˜ë™ìœ¼ë¡œ ë°”ê¾¸ì§€ ì•Šì•„ë„ ë˜ê²Œ ë³€ê²½í•˜ê³ í””.
 
 	============================================================================
 
-	³»°¡ ÀÛ¼ºÇÑ ÇÁ·Î±×·¥ÀÇ °á°ú°ª°ú Á¤´ä °á°ú°ªÀ» ºñ±³ÇØÁÖ´Â ÇÁ·Î±×·¥ÀÔ´Ï´Ù.
-	¹Ýµå½Ã ÀÌ ÇÁ·Î±×·¥¿¡¼­ ¾Ë°í¸®ÁòÀ» ÀÛ¼ºÇÑ ÈÄ ½ÇÇàÇØ¼­ myData[1-10].out¸¦ Ã¤¿öÁÖ¼¼¿ä.
-	±× ´ÙÀ½ marking_filecompare.cpp¸¦ ½ÇÇàÇØ¼­ Ã¤Á¡ °á°ú¸¦ È®ÀÎÇÏ¼¼¿ä.
+	ë‚´ê°€ ìž‘ì„±í•œ í”„ë¡œê·¸ëž¨ì— íŒŒì¼ ìž…ë ¥ê³¼ ì¶œë ¥ì„ ì‰½ê²Œ í•´ì£¼ëŠ” ì†ŒìŠ¤ì½”ë“œ ì–‘ì‹ìž…ë‹ˆë‹¤.
+	ë°˜ë“œì‹œ ì´ í”„ë¡œê·¸ëž¨ì—ì„œ ì•Œê³ ë¦¬ì¦˜ì„ ìž‘ì„±í•œ í›„ ì‹¤í–‰í•´ì„œ myData[1-10].outë¥¼ ì±„ì›Œì£¼ì„¸ìš”.
+	ê·¸ ë‹¤ìŒ marking_filecompare.cppë¥¼ ì‹¤í–‰í•´ì„œ ì±„ì  ê²°ê³¼ë¥¼ í™•ì¸í•˜ì„¸ìš”.
 
-	¶ÇÇÑ ¹®Á¦ ¹øÈ£¿¡ ¸Â´Â PROBLEM_ID¸¦ ¾Æ·¡ ¸ÅÅ©·Î¿¡ ´ëÀÔÇØÁÖ¼¼¿ä.
+	ë˜í•œ ë¬¸ì œ ë²ˆí˜¸ì— ë§žëŠ” PROBLEM_IDë¥¼ ì•„ëž˜ ë§¤í¬ë¡œì— ëŒ€ìž…í•´ì£¼ì„¸ìš”.
 */
 
 #include <cstdio>
